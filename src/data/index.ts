@@ -1,76 +1,63 @@
 const data = {
-  name: 'Avneesh Agarwal',
-  image: '/avatar.png',
-  username: 'avneesh0612',
+  name: 'Ayoub Jridi',
+  image: '/avatar2.jpeg',
+  username: 'AyoubJridi0161',
   keywords:
-    'Avneesh, Agarwal, Avneesh Agarwal, web dev, blogger, content creator',
-  profession: 'FullStack web3 developer',
+    'Ayoub, Jridi, Ayoub Jridi, web dev, Student',
+  profession: 'IoT Student',
   intro:
-    'Focused on building products that people love to use. I love to learn new things and share my knowledge with others. I teach others by creating content!',
+    'Looking to get an end-of-study internship in web or embedded systems, I love to learn new things and share my knowledge with others. I teach others by creating content!',
   about:
-    'I’m a 16 y/o full-stack web3 developer building cool products and teaching others by creating content that revolves around many areas especially in web3.',
-  website: 'https://www.avneesh.tech',
+    "I am a proactive and curious individual with a passion for learning and tackling meaningful challenges. I am currently exploring advanced topics such as cloud security and IoT systems, driven by my ambition to develop innovative solutions. One of my current projects involves creating a Smart Battery Degradation Mitigation System using Arduino, which reflects my interest in integrating technology to solve real-world problems. I am resourceful, adaptable, and committed to expanding my skills to contribute effectively in dynamic and evolving fields.",
+  website: '/',
   projects: [
     {
-      name: 'thirdweb',
-      image: '/projects/thirdweb.png',
+      name: 'proload',
+      image: '/projects/proload.png',
       about:
-        "Build web3 apps easily with thirdweb's powerful SDKs, audited smart contracts, and developer tools—for Ethereum, Polygon, Solana, & more.",
-      tech: ['Web3', 'Next.js', 'Chakra UI', 'Typescript', 'Content writing'],
+        "cloud-based Software as a Service (SaaS) solution designed to revolutionize the weightlifting ecosystem. This full-stack web application serves as a centralized hub for lifters to meticulously log workouts, track progress, and analyze performance trends, while simultaneously enabling coaches to remotely monitor and guide their clients'training regimens.",
+      tech: [ 'Next.js', 'ShadcnUI', 'Typescript', 'PostgreSQL','Auth.js'],
       links: {
-        Live: 'https://thirdweb.com/',
-        Github: 'https://github.com/thirdweb-dev',
+        Github: 'https://github.com/ayoubjridi0161/proload-t3/',
+        Live: 'https://proload.me/',
+        
       },
-      role: 'Developer Relations Engineer',
+      role: 'Fullstack',
     },
     {
-      name: 'Yoke',
-      image: '/projects/yoke.png',
+      name: 'WeTravel',
+      image: '/projects/weTravel.png',
       about:
-        'YOKE is the leading NIL software enabling teams to grow a business through building community. Thousands of athletes earn monthly income through NIL Clubs powered by YOKE.',
-      tech: ['Next.js', 'Chakra UI', 'Typescript', 'web3', 'thirdweb'],
+        'web application tailored for smalltravel agencies to streamline their hotelreservation processes. Itintegrates seamlesslywith multiple hotel property management systems (PMS) viaRESTfulAPIs, enabling real-time room availability checks and instant booking confirmations.',
+      tech: ['React.js', 'Material UI', 'NodeJS',"expressJS",'MongoDB'],
       links: {
-        Live: 'https://www.yoketeam.com/',
+        GitHub: 'https://github.com/ayoubjridi0161/reservationagency',
+        Live: '#',
       },
-      role: 'Fullstack web3 developer',
-    },
-    {
-      name: 'Candypay',
-      image: '/projects/candypay.png',
-      about: 'Seamless, mobile-native NFT & Payments experiences on solana! 🍭',
-      tech: ['Next.js', 'solana', 'Typescript'],
-      links: {
-        GitHub: 'https://github.com/candypay',
-        Live: 'https://candypay.fun',
-      },
-      role: 'Fullstack web3 developer',
+      role: 'Front-end developer',
     },
   ],
   links: [
     {
       name: 'GitHub',
       icon: 'github.svg',
-      link: 'https://github.com/avneesh0612',
+      link: 'https://github.com/ayoubjridi0161',
     },
     {
       name: 'Twitter',
       icon: 'twitter.svg',
-      link: 'https://twitter.com/avneesh0612',
+      link: 'https://twitter.com/',
     },
-    {
-      name: 'Farcaster',
-      icon: 'farcaster.svg',
-      link: 'https://warpcast.com/aneesh0612',
-    },
+    
     {
       name: 'Mail me',
       icon: 'mail.svg',
-      link: 'mailto:hi@avneesh.tech',
+      link: 'mailto:jridiayoub@isitc.u-sousse.tn',
     },
     {
       name: 'LinkedIn',
       icon: 'linkedin.svg',
-      link: 'https://www.linkedin.com/in/avneesh0612',
+      link: 'https://www.linkedin.com/in/ayoub-jridi-34a4942a2',
     },
   ],
 };

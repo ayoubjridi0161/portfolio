@@ -25,8 +25,8 @@ const getUserDataAndPosts = async (username: string) => {
   });
 
   const userData = await userDataRes.json();
-  const edges = userData.data.user.posts.edges;
-  for (let i = 0; i < edges.length; i++) {
+  const edges = userData.data?.user?.posts.edges ;
+  if(edges)  for (let i = 0; i < edges.length; i++) {
     ids.push(edges[i].node.id);
   }
 

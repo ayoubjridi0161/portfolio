@@ -18,10 +18,10 @@ export const About = () => {
 
         <Image
           alt={data.name}
-          className="object-contain relative mx-auto mt-20 border-2 rounded-full md:mt-0 md:ml-20 w-80 h-80 border-neon"
-          height={300}
+          className="object-cover relative mx-auto mt-20 border-2 rounded-full md:mt-0 md:ml-20 w-80 h-80 border-neon"
+          height={40}
           src={data.image}
-          width={300}
+          width={450}
         />
       </div>
     </div>
