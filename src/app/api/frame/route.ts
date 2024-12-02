@@ -117,7 +117,7 @@ export async function POST(req: NextRequest): Promise<Response> {
               action: 'post',
             },
             {
-              label: 'Blog',
+              label: 'Skills',
               action: 'link',
               target: 'https://blog.avneesh.tech',
             },

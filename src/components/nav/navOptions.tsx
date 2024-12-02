@@ -9,7 +9,7 @@ const navOptions = [
     href: 'work',
   },
   {
-    name: 'Blog',
+    name: 'Skills',
     href: 'blog',
   },
   {
